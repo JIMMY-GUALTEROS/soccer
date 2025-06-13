@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./sesion1.css" />
+</head>
+<body>
+    <a href="javascript:history.back()" class="back-button">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAARVJREFUWEflmNENwjAMRK+bMApswibAJIzCKDAKnNRIVtQEx7WTSM0PCFH69Hx2QhdMtpbJeHBYoDOA51qNC4BPqTI9DN0B3ATA4/een22uSKATgBcAvso1BCi3MgyINpgVZqa0uhmqWelqSGOlG9BVtLN2xoaUrNVKqCEGlu1sXa6GtMGtwboAlYacxdJuIA8rLhnaE9yQkr039iFLifJrzCVjJ9W2ACucGcgzyC4Z4o8QitNYnmesZtJ1ZkPyxp62XIA8bbkBJWPpfJyfBLWldAfaaysEKNmwTPFQoGTr37HVre21ueD3tLbCDbWOh65AmsB3B0rGpvqjKKHyrWeYIZktDlPuh7Q2/GFDS6ce9/mQ2tIXr5o8JRz5edwAAAAASUVORK5CYII=" alt="Back Icon">
+        Back
+    </a>
+    <div class="container">
+        <form action="./php/login.php" method="post">
+            <img class="logo" src="imagen/logo.real-pasion_sin_fondo.png">
+            <h1>Acceso</h1>
+            <div class="input-box">
+                <input type="email" name="username" placeholder="usuario" required />
+            </div>
+            <div class="input-box">
+                <input type="password" name="password" placeholder="Contraseña" required />
+            </div>
+            <div class="remember-forgot">
+              <label>
+                  <input type="checkbox" name="remember" /> Recordar
+              </label>
+              <a href="#">¿Has olvidado tu contraseña?</a>
+          </div>
+            <div class="ntt">
+                <button type="submit" class="btn">Login</button>
+            </div>
+            <div class="social-message">
+                <div class="line"></div>
+                <p class="message">Iniciar sesión con cuentas sociales</p>
+                <div class="line"></div>
+            </div>
+            <div class="social-icons">
+                <button class="icon"><i class="fab fa-google"></i></button>
+                <button class="icon"><i class="fab fa-twitter"></i></button>
+            </div>
+            <div class="register-link">
+                <p> ¿No tienes una cuenta? <a href="sesion2.html">Registrarse Aqui!</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+

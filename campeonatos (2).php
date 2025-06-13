@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Entrenamientos</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+    <link href="imagen/logo.png" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body >
+        <!-- Top Bar Start -->
+       
+    <!-- Location Start -->
+   
+    <!-- Location End -->
+    <!-- Top Bar Start -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-12">
+
+                    <div class="logo">
+                        <a href="index.html">
+                            <h1>Real-<span>Pasiòn</span></h1>
+                            <!-- <img src="img/logo.jpg" alt="Logo"> -->
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="top-bar-item">
+
+                                <img src="imagen/logo.png" alt="" width="55px">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="top-bar-item">
+
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="top-bar-item">
+                                <h1 class="futbol">Futbol.Club</h1>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Top Bar End -->
+
+   
+
+</div> <!-- Nav Bar Start -->
+    <div class="nav-bar">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <a href="#" class="navbar-brand"> <img src="imagen/Diseño_sin_título-removebg-preview.png" alt="" width="0px"> Futbol Club.</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto">
+                        <a href="index.html" class="nav-item nav-link">Escuela</a>
+                        <a href="nosotros.html" class="nav-item nav-link">Nosotros</a>
+                        <a href="campeonatos.php" class="nav-item nav-link">Campeonatos</a>
+                        <a href="historia.html" class="nav-item nav-link">Historia</a>
+                        <a href="tienda.html" class="nav-item nav-link">Tienda</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-item nav-link active" data-toggle="dropdown">Mas</a>
+                            <div class="dropdown-menu">
+                                <a href="campeonatos (2).php" class="nav-item nav-link active">torneos</a>
+                                <a href="planes.html" class="dropdown-item">Ver Plan</a>
+                            </div>
+                        </div>
+                        <a href="contacto.html" class="nav-item nav-link">Contacto</a>
+                    </div>
+                    <div class="ml-auto">
+                        <a class="btn btn-custom" href="sesion1.html">Login </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+
+    
+        
+    <!-- Contact Start -->
+    <div class="contact1">
+        <div class="container1">
+            <div class="section-header text-center">
+                <p>Boletines</p>
+                <h2>Torneos</h2>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+      
+
+    
+   
+   
+      <!-- Sección Herramientas -->
+      <?php include ".//mostrar_pdf.php"?>
+      <div id="herramientas" class="section" style="display:none;">
+        <div class="content-flex">
+            
+            
+        </div>
+    </div>
+
+    
+    
+
+
+      <!-- Footer Start -->
+      <div class="footer">
+        <footer>
+            
+            <div class="footer-container">
+                <div class="sponsors-section">
+                    <h4 class="tituloo"> patrocinadores oficiales</h4>
+                    
+                    <div class="sponsors-grid">
+                        <!-- Logo del Patrocinador 1 -->
+                        <a href="https://www.adidas.co/?cm_mmc=AdieSEM_Google-_-Trademark-Website-General-B-Exact-_-General-Oficial-X-General-_-adidas+oficial-_--_-ds_kid=43700052084834637-_-ds_agid=58700005713720380-_-dv:eCom&cm_mmca1=CO&cm_mmc2=&af_reengagement_window=30d&is_retargeting=true&pid=googleadwords_temp&c=Trademark-Website-General-B-Exact&af_channel=Search&gad_source=1&gclid=CjwKCAjwl6-3BhBWEiwApN6_ksBCh771UKqWtpjVbvh5fHUkyZ1XnbdDGiBLozJSoUD3C78na8e1BxoCPkQQAvD_BwE&gclsrc=aw.ds" target="_blank">
+                            <img src="imagen/logo.adidas-sin.fondo.png" alt="Patrocinador 4">
+                        </a>
+                        <!-- Logo del Patrocinador 2 -->
+                        <a href="https://www.nike.com.co/?utm_source=google&utm_medium=paid&utm_campaign=northbay_co_nike_google_paid_search_alwayson_general_palabras-clv_cpa&utm_content=28-06-24_dest-home_northbay_co_nike_google_paid_search_alwayson_general_palabras-clv_cpa&utm_source=cpc&utm_medium=search&utm_campaign=general&gad_source=1&gclid=CjwKCAjwl6-3BhBWEiwApN6_kpTTodrHYuK1-A_tnwSRMvJkpEgtjESJJ2vkPe-epsaRhalhbyw7SxoCWI4QAvD_BwE" target="_blank">
+                            <img src="imagen/logo.nike-sin.fondo.png" alt="Patrocinador 4">
+                        </a>
+                        <!-- Logo del Patrocinador 3 -->
+                        <a href="https://www.underarmour.com.co/new?map=productClusternames&utm_term=tienda%20oficial%20under%20armour&utm_campaign=COLOMBIA_ECOMM_ALWAYSON_PS_TRADEMARK_CONVERT&utm_source=google&utm_medium=cpc&hsa_acc=2629134848&hsa_cam=14255846633&hsa_grp=129476909727&hsa_ad=711706902687&hsa_src=g&hsa_tgt=kwd-324975031406&hsa_kw=tienda%20oficial%20under%20armour&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwl6-3BhBWEiwApN6_kj69NNeJOo5WuU1o11aIZMzY0dC2t6ShKzcPSWjdEUjYMMXorTeIkhoC5fUQAvD_BwE" target="_blank">
+                            <img src="imagen/logo.under-sin.fondo.png" alt="Patrocinador 4">
+                        </a>
+                        <!-- Logo del Patrocinador 4 -->
+                        <a href="https://www.instagram.com/original.ve/" target="_blank">
+                            <img src="imagen/logo.veee.sin.fondo.png" alt="Patrocinador 4">
+                        </a>
+                        <a href="https://www.underarmour.com.co/new?map=productClusternames&utm_term=tienda%20oficial%20under%20armour&utm_campaign=COLOMBIA_ECOMM_ALWAYSON_PS_TRADEMARK_CONVERT&utm_source=google&utm_medium=cpc&hsa_acc=2629134848&hsa_cam=14255846633&hsa_grp=129476909727&hsa_ad=711706902687&hsa_src=g&hsa_tgt=kwd-324975031406&hsa_kw=tienda%20oficial%20under%20armour&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwl6-3BhBWEiwApN6_kj69NNeJOo5WuU1o11aIZMzY0dC2t6ShKzcPSWjdEUjYMMXorTeIkhoC5fUQAvD_BwE" target="_blank">
+                            <img src="imagen/logo.under-sin.fondo.png" alt="Patrocinador 4">
+                        </a>
+                        
+                    </div>
+                    <div class="sponsors-grid">
+                        <!-- Logo del Patrocinador 1 -->
+                        <a href="https://www.underarmour.com.co/new?map=productClusternames&utm_term=tienda%20oficial%20under%20armour&utm_campaign=COLOMBIA_ECOMM_ALWAYSON_PS_TRADEMARK_CONVERT&utm_source=google&utm_medium=cpc&hsa_acc=2629134848&hsa_cam=14255846633&hsa_grp=129476909727&hsa_ad=711706902687&hsa_src=g&hsa_tgt=kwd-324975031406&hsa_kw=tienda%20oficial%20under%20armour&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwl6-3BhBWEiwApN6_kj69NNeJOo5WuU1o11aIZMzY0dC2t6ShKzcPSWjdEUjYMMXorTeIkhoC5fUQAvD_BwE" target="_blank">
+                            <img src="imagen/logo.under-sin.fondo.png" alt="Patrocinador 4">
+                        </a>
+                        <!-- Logo del Patrocinador 2 -->
+                        <a href="https://www.instagram.com/original.ve/" target="_blank">
+                            <img src="imagen/logo.veee.sin.fondo.png" alt="Patrocinador 4">
+                        </a>
+                        <!-- Logo del Patrocinador 3 -->
+                        <a href="https://www.futbolasyaf.com/real-pasion-fc" target="_blank">
+                            <img src="imagen/logo.real-pasion_sin_fondo.png" alt="Patrocinador 4">
+                        </a>
+                        <!-- Logo del Patrocinador 4 -->
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <hr>
+        </footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-contact">
+                        <h2>SIGA CON NOSOTROS</h2>
+                        <p><i class="fa fa-map-marker-alt"></i>km 13,Funza Cundinamarca, COLOMBIA</p>
+                        <p><i class="fa fa-phone-alt"></i>+57 320 123 78 09</p>
+                        <p><i class="fa fa-envelope"></i>futbolclub@realpasion.com</p>
+                        <div class="footer-social">
+                            <a class="btn" href="https://x.com/i/flow/login?redirect_after_login=%2Frealpasionfcf"
+                                target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="btn"
+                                href="https://www.facebook.com/p/Real-Pasi%C3%B3n-FC-100063746286057/?paipv=0&eav=AfZ9-rqZYx_PHe19g3RofAm-_c8BNbnJpG-yrcfeYoVIpy_8T8bjmyCqy7FkeCGHYYg&_rdr"
+                                target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn" href="https://www.youtube.com/@RealPasionFC" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="btn" href="https://www.instagram.com/real.pasionfc/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-link">
+                        <h2>Links Populares</h2>
+                        <a href="nosotros.html">Sobre nosotros</a>
+                        <a href="contacto.html">Contacto</a>
+                        <a href="historia.html">Historia</a>
+                        <a href="tienda.html">Tienda virtual</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-link">
+                        <h2>Enlaces Utiles</h2>
+                        <a href="terminosdeuso.html" target="_blank">Terminos de uso</a>
+                        <a href="cookies.html" target="_blank">Cookies</a>
+                        <a href="ayudas.html" target="_blank" >Ayuda</a>
+                        <a href="preguntasmasfrecuentes.html" target="_blank">Preguntas Frecuentes</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-newsletter">
+                        <h2>Boletin Informativo</h2>
+                        <form>
+                            <input class="form-control" placeholder="Nombre Completo">
+                            <input class="form-control" placeholder="Email">
+                            <button class="btn btn-custom">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="container copyright">
+            <p>&copy; <a href="#">Real Pasion F.C</a>, Todos Los Derechos Reservados. <a href="#">2024</a></p>
+            <p><a href="politicas.privacidad.html">Política de Privacidad</a> | <a href="terminosdeuso.html">Términos y Condiciones</a></p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- Pre Loader -->
+    <div id="loader" class="show">
+        <div class="loader"></div>
+    </div>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+        <script src="//code.tidio.co/zpvy7owyrpsvssj0jegmlefgxj96shor.js" async></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="modal.ventana.js"></script>
+    </body>
+</html>

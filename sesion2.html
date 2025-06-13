@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sesion1.css" />
+    <style>
+      .error {
+        color: red;
+        display: none;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="javascript:history.back()" class="back-button">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAARVJREFUWEflmNENwjAMRK+bMApswibAJIzCKDAKnNRIVtQEx7WTSM0PCFH69Hx2QhdMtpbJeHBYoDOA51qNC4BPqTI9DN0B3ATA4/een22uSKATgBcAvso1BCi3MgyINpgVZqa0uhmqWelqSGOlG9BVtLN2xoaUrNVKqCEGlu1sXa6GtMGtwboAlYacxdJuIA8rLhnaE9yQkr039iFLifJrzCVjJ9W2ACucGcgzyC4Z4o8QitNYnmesZtJ1ZkPyxp62XIA8bbkBJWPpfJyfBLWldAfaaysEKNmwTPFQoGTr37HVre21ueD3tLbCDbWOh65AmsB3B0rGpvqjKKHyrWeYIZktDlPuh7Q2/GFDS6ce9/mQ2tIXr5o8JRz5edwAAAAASUVORK5CYII=" alt="Back Icon">
+        
+    Back
+    </a>
+    <div class="container">
+      <form id="registerForm" action="./php/registro.php" method="post">
+        <img class="logo" src="imagen/logo.real-pasion_sin_fondo.png">
+
+        <h1>Registrarse</h1>
+        <div class="input-box">
+          <input type="email" placeholder="correo" required name="username"/>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Contraseña" id="password" required name="password"/>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Confirmar Contraseña" id="confirmPassword" required />
+        </div>
+
+        <p id="error" class="error">Las contraseñas no coinciden</p>
+
+        <div class="remember-forgot">
+          <label><input type="checkbox" /> Recordar</label>
+        </div>
+
+        <div class="ntt">
+            <button type="submit" class="btn">Registrarse</button>
+        </div>
+
+        <div class="register-link">
+          <p> Volver -<a href="sesion1.html"> Inicia sesión</a></p>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      const form = document.getElementById('registerForm');
+      const password = document.getElementById('password');
+      const confirmPassword = document.getElementById('confirmPassword');
+      const error = document.getElementById('error');
+
+      form.addEventListener('submit', function(event) {
+        if (password.value !== confirmPassword.value) {
+          error.style.display = 'block';
+          event.preventDefault(); // Evita que se envíe el formulario si las contraseñas no coinciden
+        } else {
+          error.style.display = 'none';
+        }
+      });
+    </script>
+  </body>
+</html>

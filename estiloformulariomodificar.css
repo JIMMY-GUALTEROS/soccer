@@ -1,0 +1,120 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cdcdc4; /* Blanco hueso */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+/* Encabezados */
+h1 {
+    color: #ff3b30;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #000000c9;
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Sección de formulario */
+.section {
+    margin-bottom: 40px;
+}
+
+/* Estilos para formularios */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="file"], 
+select, 
+input[type="submit"], 
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botones */
+.btn {
+    background-color: #ff3b30;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d32f2f;
+}
+
+/* Estilos para vista previa de imagen */
+#vistaPrevia {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#vistaPrevia img {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    input[type="submit"], 
+    button {
+        font-size: 14px;
+    }
+}
+
+
+

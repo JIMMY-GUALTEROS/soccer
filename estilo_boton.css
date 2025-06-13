@@ -1,0 +1,20 @@
+.ver-cambio {
+    background-color: #1321e1; /* Color verde */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Esquinas redondeadas */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones */
+    position: absolute; /* Posición absoluta */
+    top: 5px; /* Ajustar distancia desde la parte superior */
+    left: 7px; /* Ajustar distancia desde la izquierda */
+   
+}
+
+.ver-cambio:hover {
+    background-color: #0c1489; /* Color verde más oscuro al pasar el ratón */
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}

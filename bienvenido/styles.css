@@ -1,0 +1,73 @@
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("..//imagen/compromiso.imgaen.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Título principal */
+h1 {
+    color: #f44c44;
+    margin-bottom: 20px;
+}
+
+/* Párrafo */
+p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Estilos de botones */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #ff3b30;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    flex: 1;
+}
+
+.btn:hover {
+    background-color: #d32f2f;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .button-container {
+        flex-direction: column;
+    }
+
+    .btn {
+        margin-bottom: 10px;
+    }
+}
